@@ -12,7 +12,7 @@ const projects = [
     {
         number: 3,
         name: "Rotating_Navigation",
-        imgLink: "",
+        imgLink: "3-rotating-navigation.png",
     },
 ];
 
