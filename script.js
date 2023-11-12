@@ -14,6 +14,11 @@ const projects = [
         name: "Rotating_Navigation",
         imgLink: "3-rotating-navigation.png",
     },
+    {
+        number: 4,
+        name: "Hidden_Search_Widget",
+        imgLink: "4-hidden-search-widget.png",
+    },
 ];
 
 const projectsElement = document.getElementById("projects");
