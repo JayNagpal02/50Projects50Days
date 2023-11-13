@@ -22,6 +22,7 @@ a {
     background-color: rgb(157, 100, 237);
     text-align: center;
     padding: 1rem;
+    font-size: 1.2rem;
 }
 
 .projects {
@@ -76,4 +77,34 @@ a {
     justify-content: center;
     text-align: center;
     transition: opacity 0.3s ease-in;
+}
+
+@media (max-width: 980px)  {
+    .header {
+        font-size: 1rem;
+    }
+
+    .projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 720px)  {
+    .header {
+        font-size: 0.8rem;
+    }
+
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px)  {
+    .header {
+        font-size: 0.6rem;
+    }
+
+    .projects {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
