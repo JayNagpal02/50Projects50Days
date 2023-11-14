@@ -19,6 +19,11 @@ const projects = [
         name: "Hidden_Search_Widget",
         imgLink: "4-hidden-search-widget.png",
     },
+    {
+        number: 5,
+        name: "Blurry_Loading",
+        imgLink: "5-blurry-loading.png",
+    },
 ];
 
 const projectsElement = document.getElementById("projects");
