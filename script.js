@@ -29,6 +29,11 @@ const projects = [
         name: "Scroll_Animation",
         imgLink: "6-scroll-animation.png",
     },
+    {
+        number: 7,
+        name: "Split_Landing_Page",
+        imgLink: "7-split-landing-page.png",
+    },
 ];
 
 const projectsElement = document.getElementById("projects");
