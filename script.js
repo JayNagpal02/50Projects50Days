@@ -39,6 +39,11 @@ const projects = [
         name: "Form_Wave_Animation",
         imgLink: "8-form-wave-animation.png",
     },
+    {
+        number: 9,
+        name: 'Sound_Board',
+        imgLink: "9-sound-board.png",
+    }
 ];
 
 const projectsElement = document.getElementById("projects");
